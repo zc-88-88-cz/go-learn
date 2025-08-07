@@ -33,7 +33,7 @@ func calculate(a, b int) (int, int) {
 
 // 命名返回值
 func rectArea(width, height float64) (area float64) {
-    area = width * height
+    area = width * height // area := width * height  错误的，不能用短变量声明
     return // 自动返回area变量
 }
 

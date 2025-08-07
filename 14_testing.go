@@ -51,3 +51,8 @@ func fibonacci(n int) int {
     }
     return fibonacci(n-1) + fibonacci(n-2)
 }
+
+func main() {
+    // 运行测试
+    TestSubtraction()
+}

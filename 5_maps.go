@@ -9,13 +9,20 @@ func main() {
     m1 := make(map[string]int)
     m1["apple"] = 5
     m1["banana"] = 7
+	m0 := make(map[string]int)
+	m0["age"] = 1
+	m0["height"] = 180
+
     
     // 2. 字面量创建map
     m2 := map[string]int{
         "orange": 3,
         "pear":  4,
     }
-    
+    m22 =: map[string]int{
+        "orange": 3,
+        "pear":  4,
+	}
     fmt.Println("map示例:")
     fmt.Println("m1:", m1)
     fmt.Println("m2:", m2)

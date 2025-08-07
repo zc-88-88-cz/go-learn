@@ -17,6 +17,7 @@ func main() {
 	fmt.Println("类型:", reflect.TypeOf(x))
 	fmt.Println("值:", reflect.ValueOf(x))
 
+
 	// 2. 结构体反射
 	p := Person{"张三", 25}
 	v := reflect.ValueOf(p)
